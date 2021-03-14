@@ -21,7 +21,7 @@ function createtime() {
         snum = "0" + snum;
     }
     document.getElementById("timeDate").innerHTML = "本站已运行 " + dnum + " 天 ";
-    document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒。";
+    document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒，";
 }
 
 setInterval("createtime()", 250);
